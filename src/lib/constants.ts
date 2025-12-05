@@ -19,14 +19,14 @@ export const PRICING_PLANS = [
     title: "Business",
     price: "$49",
     description: "Professional reports & internal decks.",
-    features: ["Up to 20 Slides", "Topic Research", "Custom Graphics", "Source File Included", "Unlimited Revisions"],
+    features: ["Up to 20 Slides", "Topic Research", "24h Delivery", "Custom Graphics", "Source File Included", "Unlimited Revisions"],
     highlight: true,
   },
   {
     title: "Pitch Deck",
     price: "$79",
     description: "Investment-ready startup presentations.",
-    features: ["Up to 15 Slides", "Deep Market Research", "Investor Focused", "Unlimited Revisions"],
+    features: ["Up to 20 Slides", "Deep Market Research", "48h Delivery", "Investor Focused", "Custom Graphics", "Source File Included", "Unlimited Revisions"],
     highlight: false,
   },
 ];
