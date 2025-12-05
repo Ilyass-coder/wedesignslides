@@ -47,6 +47,8 @@ export function OrderForm() {
       if (result.success) {
         setSubmitted(true);
         setSubmissionResult("Success!");
+        // Change URL to /success for conversion tracking
+        window.history.pushState({}, "", "/success");
       } else {
         setSubmissionResult("Error submitting form. Please try again.");
       }
@@ -70,7 +72,10 @@ export function OrderForm() {
              <Button 
                 variant="outline" 
                 className="mt-8"
-                onClick={() => setSubmitted(false)}
+                onClick={() => {
+                  setSubmitted(false);
+                  window.history.pushState({}, "", "/");
+                }}
              >
                 Submit Another
              </Button>
