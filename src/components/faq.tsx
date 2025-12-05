@@ -10,11 +10,11 @@ import {
 const FAQS = [
   {
     question: "Is the 'First 3 Slides Free' offer really free?",
-    answer: "Yes, absolutely. We will redesign up to 3 slides from your deck to show you what we can do. If you like them, we can move forward with the full project. If not, you don't pay a dime.",
+    answer: "Yes, absolutely. We will redesign up to 3 slides from your description to show you what we can do. If you like them, we can move forward with the full project. If not, you don't pay a dime.",
   },
   {
     question: "How long does the redesign take?",
-    answer: "For the 3 free slides, we usually deliver within 24 hours. For full presentations, it depends on the length, but typically 2-4 business days.",
+    answer: "For the 3 free slides, we usually deliver within 24 hours. For full presentations, it depends on the length, but typically 1-2 business days.",
   },
   {
     question: "What format do I need to send?",
@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     question: "Do you do research or just design?",
-    answer: "We can do both. The 'Pitch Deck' package includes market research. For other packages, we focus on visual design and narrative flow based on your provided content.",
+    answer: "We can do both. All packages include topic/market research. We focus on visual design and narrative flow based on your provided content.",
   },
 ];
 
